@@ -1,6 +1,12 @@
 import hvrPulseAnimation from "../animations/Pulse";
 
+/**
+ * TODO: Add comment to everything
+ */
 const transitions_2d = {
+  /**
+   * TODO: Add comment to everything
+   */
   hvrGrow: `display: inline-block;
       vertical-align: middle;
       -webkit-transform: perspective(1px) translateZ(0);
@@ -24,6 +30,7 @@ const transitions_2d = {
         transform: scale(1.1);
       }
       `,
+
   hvrShrink: `
       display: inline-block;
       vertical-align: middle;
