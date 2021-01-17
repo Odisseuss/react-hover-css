@@ -4,11 +4,17 @@
   "description": "",
   "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compile_tsc": "tsc"
   },
   "keywords": [],
   "author": "",
   "license": "MIT",
   "types": "index.d.ts",
-  "prepublish": "tsc"
+  "prepublish": "tsc",
+  "dependencies": {
+    "styled-components": "^5.2.1"
+  },
+  "devDependencies": {
+    "@types/styled-components": "^5.1.7"
+  }
 }
