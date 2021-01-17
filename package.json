@@ -8,7 +8,7 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "types": "index.d.ts",
   "prepublish": "tsc"
 }
