@@ -3,13 +3,17 @@
   "version": "1.0.0",
   "description": "A Hover.css port for React + Styled Components",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "compile_tsc": "tsc"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "react",
+    "hover.css",
+    "styled-components"
+  ],
+  "author": "Rares Lungescu",
   "license": "MIT",
-  "types": "index.d.ts",
   "prepublish": "tsc",
   "dependencies": {
     "styled-components": "^5.2.1"
