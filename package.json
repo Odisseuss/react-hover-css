@@ -12,6 +12,11 @@
     "hover.css",
     "styled-components"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Odisseuss/react-hover-css"
+  },
+  "homepage": "https://github.com/Odisseuss/react-hover-css",
   "author": "Rares Lungescu",
   "license": "MIT",
   "prepublish": "tsc",
