@@ -7,7 +7,7 @@ const hvrBackPulseKeyframes = keyframes`
 `;
 
 const hvrBackPulseAnimation = css`
-  -webkit-animation: ${hvrBackPulseKeyframes} 1s 0.5s liniar infinite;
-  animation: ${hvrBackPulseKeyframes} 0.3s 0s ease-out 1 forwards;
+  -webkit-animation: ${hvrBackPulseKeyframes} 1s 0.5s linear infinite;
+  animation: ${hvrBackPulseKeyframes} 1s 0.5s linear infinite;
 `;
 export default hvrBackPulseAnimation;

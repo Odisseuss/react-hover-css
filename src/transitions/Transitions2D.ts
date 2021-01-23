@@ -21,15 +21,15 @@ import hvrBuzzOut from "../animations/transitions_2d/BuzzOut";
  *
  * @example
  * ```
- *  import {transitions_2d} from 'react-styled-hover';
+ *  import {transitions2d} from 'react-styled-hover';
  *
  *  let StyledButton = styled.button`
- *    ${transitions_2d.hvrGrow}
+ *    ${transitions2d.hvrGrow}
  *    ...other styles
  *  `
  * ```
  */
-const transitions_2d = {
+const transitions2d = {
   hvrGrow: `
       display: inline-block;
       vertical-align: middle;
@@ -637,4 +637,4 @@ const transitions_2d = {
   `,
 };
 
-export default transitions_2d;
+export default transitions2d;

@@ -1,3 +1,4 @@
-import transitions_2d from "./transitions/Transitions2D";
+import transitions2d from "./transitions/Transitions2D";
+import backgroundTransitions from "./transitions/BackgroundTransitions";
 
-export { transitions_2d };
+export { transitions2d, backgroundTransitions };
