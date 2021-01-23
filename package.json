@@ -1,7 +1,7 @@
 {
-  "name": "react-styled-hover",
-  "version": "1.0.0",
-  "description": "",
+  "name": "react-hover-css",
+  "version": "0.1.0",
+  "description": "A Hover.css port for React + Styled Components",
   "main": "dist/index.js",
   "scripts": {
     "compile_tsc": "tsc"
