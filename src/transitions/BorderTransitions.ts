@@ -212,21 +212,21 @@ const borderTransitions = {
             -webkit-transition-property: top, right, bottom, left;
             transition-property: top, right, bottom, left;
         }
-        &:hover {
+        &:hover:before {
             top: -8px;
             right: -8px;
             bottom: -8px;
             left: -8px;
             opacity: 1;
         }
-        &:focus {
+        &:focus:before {
             top: -8px;
             right: -8px;
             bottom: -8px;
             left: -8px;
             opacity: 1;
         }
-        &:active {
+        &:active:before {
             top: -8px;
             right: -8px;
             bottom: -8px;
