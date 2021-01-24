@@ -1,7 +1,7 @@
 {
   "name": "react-hover-css",
   "version": "1.0.2",
-  "description": "A Hover.css port for React + Styled Components",
+  "description": "A simple Hover.css port for React + Styled Components",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -10,14 +10,15 @@
   "keywords": [
     "react",
     "hover.css",
-    "styled-components"
+    "styled-components",
+    "css transitions"
   ],
   "repository": {
     "type": "git",
     "url": "https://github.com/Odisseuss/react-hover-css"
   },
   "homepage": "https://github.com/Odisseuss/react-hover-css",
-  "author": "Rares Lungescu",
+  "author": "Rares Lungescu <rares_lungescu@yahoo.com> (https://rareslungescu.com)",
   "license": "MIT",
   "prepublish": "tsc",
   "dependencies": {
