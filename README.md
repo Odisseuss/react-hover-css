@@ -34,6 +34,10 @@ let StyledButton = styled.button`
 `;
 ```
 
+### Using Icon Transitions
+
+In order to use icons transitions, simply add the class `.hvr-icon` to the icon inside your element, and apply an icon transition.
+
 ### Warning!
 
 Some animations use css keyframes, which you can't change!
