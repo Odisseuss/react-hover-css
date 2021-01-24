@@ -1,6 +1,3 @@
-import { css } from "styled-components";
-import hvrRippleOut from "../animations/border/RippleOut";
-import hvrRippleIn from "../animations/border/RippleIn";
 /**
  * Contains all the shadow transitions
  *
