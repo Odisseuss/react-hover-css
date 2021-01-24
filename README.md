@@ -1,5 +1,8 @@
 # React Hover CSS
 
+[![Generic badge](https://img.shields.io/badge/version-1.1.0-<COLOR>.svg)](https://shields.io/)
+[![Generic badge](https://img.shields.io/badge/license-MIT-2298D4.svg)](https://shields.io/)
+
 A simple [Hover.css](http://ianlunn.github.io/Hover/) port to use with Styled-Components.
 This contains all transitions exposed by Hover.css, except for the curl transitions.
 
