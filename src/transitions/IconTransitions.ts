@@ -16,8 +16,9 @@ import hvrSinkAway from "../animations/icon/SinkAway";
 import hvrWobbleHorizontal from "../animations/icon/WobbleHorizontal";
 import hvrWobbleVertical from "../animations/icon/WobbleVertical";
 /**
- * Contains all the icon transitions
- *
+ * @remarks
+ * The button should contain another element with the class of `.hvr-icon` for the icon animations to work
+ * 
  * @example
  * ```
  *  import {iconTransitions} from 'react-styled-hover';
@@ -26,9 +27,15 @@ import hvrWobbleVertical from "../animations/icon/WobbleVertical";
  *    ${iconTransitions.hvrFade}
  *    ...other styles
  *  `
+ *  let IconButton = () => {
+ *    return (
+ *      <StyledButton>
+ *        <img src="#" className="hvr-icon" />
+ *      </StyledButton>
+ *    );
+ * }
  * ```
- * @remarks
- * The button should contain another element with the class of `.hvr-icon` for the icon animations to work
+
  */
 const iconTransitions = {
   hvrIconBack: `

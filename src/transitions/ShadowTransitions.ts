@@ -1,6 +1,4 @@
 /**
- * Contains all the shadow transitions
- *
  * @example
  * ```
  *  import {shadowTransitions} from 'react-styled-hover';

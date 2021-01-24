@@ -2,8 +2,6 @@ import { css } from "styled-components";
 import hvrBackPulse from "../animations/background/BackPulse";
 
 /**
- * Contains all the background transitions
- *
  * @example
  * ```
  *  import {backgroundTransitions} from 'react-styled-hover';

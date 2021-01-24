@@ -1,6 +1,4 @@
 /**
- * Contains all the speech bubble transitions
- *
  * @example
  * ```
  *  import {speechBubbleTransitions} from 'react-styled-hover';

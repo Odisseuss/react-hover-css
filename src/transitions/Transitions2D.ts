@@ -17,8 +17,6 @@ import hvrBuzz from "../animations/transitions_2d/Buzz";
 import hvrBuzzOut from "../animations/transitions_2d/BuzzOut";
 
 /**
- * Contains all the 2d transitions
- *
  * @example
  * ```
  *  import {transitions2d} from 'react-styled-hover';
