@@ -19,7 +19,7 @@ npm install react-hover-css --save
 import { transition2d, backgroundTransition } from "react-hover-css";
 ```
 
-2. Apply an animation to a styled-component:
+2. Apply a transition to a styled-component:
 
 ```js
 let StyledButton = styled.button`
@@ -79,7 +79,7 @@ For more details check out their documentation: [here](https://styled-components
 
 ### A note on overriding keyframes
 
-Some animations make use of css keyframes. Unfortunately, you can't change these ones!
+Some transitions make use of css keyframes. Unfortunately, you can't change these ones!
 
 ## License
 
